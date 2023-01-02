@@ -2,6 +2,7 @@
 
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="styles.css" />
     <meta charset="UTF-8" />
     <title>Sushifeathers Webdesign</title>
   </head>
@@ -12,7 +13,10 @@
       height="400"
       alt="picture of mountain"
     />
-    <h1>Hi! This is Chanelle Hsu, aka <i>sushifeathers</i>.</h1>
+    <h1>
+      Hi! This is Chanelle Hsu, aka
+      <span class="bold-text"><i>sushifeathers.</i></span>
+    </h1>
     <p>
       I am a full-time Sales Engineer, looking to pick up web development as a
       potential career path.
@@ -23,12 +27,26 @@
       of The Odin Project. This will evolve into a responsive, aesthically
       inviting portfolio of my own in time to come.
     </p>
-    <a href="./odin_portfolio_links_images/pages/portfolio.html"
-      ><h2>Portfolio</h2></a
-    >
-    <a href="https://sg.linkedin.com/in/chanelle-hsu-yueh"><h2>LinkedIn</h2></a>
-    <a href="./odin_portfolio_links_images/pages/skills.html"
-      ><h2>Skills</h2></a
-    >
+    <button type="button" class="Portfolio">
+      <a
+        style="text-decoration: none"
+        href="/odin_portfolio_links_images/pages/portfolio.html"
+        ><h2>Portfolio</h2></a
+      >
+    </button>
+    <button type="button" class="LinkedIn">
+      <a
+        style="text-decoration: none"
+        href="https://sg.linkedin.com/in/chanelle-hsu-yueh"
+        ><h2>LinkedIn</h2></a
+      >
+    </button>
+    <button type="button" class="Skills">
+      <a
+        style="text-decoration: none"
+        href="./odin_portfolio_links_images/pages/skills.html"
+        ><h2>Skills</h2></a
+      >
+    </button>
   </body>
 </html>

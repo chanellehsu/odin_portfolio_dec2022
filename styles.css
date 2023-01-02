@@ -1,0 +1,25 @@
+/* styles.css */
+
+.bold-text {
+  background-color: black;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+}
+
+button {
+  width: 200px;
+  height: auto;
+}
+
+button.Portfolio {
+  background-color: lightblue;
+}
+
+button.LinkedIn {
+  background-color: lightgreen;
+}
+
+button.Skills {
+  background-color: lightgrey;
+}
